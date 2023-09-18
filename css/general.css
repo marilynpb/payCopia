@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Paypal-font'; /* Nombre de la fuente que deseas utilizar */
+    src: url('../font/PayPalSansBig-Regular-Klim.ttf') format('truetype'); /* Ruta a tu archivo TTF */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Paypal-font',sans-serif;
+}
+
+body{
+    background-color: #FAF8F5;
+}
+
+.card-white{
+    background-color: #FFFFFF;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    width: 97%!important;
+    margin-left: 65px!important;
+}
+
+.title{
+    color: #001435;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.btn-transfer{
+    color: #ffffff;
+    background-color: #003087;
+    min-width: 3.75rem;
+    font-size: 14px;
+    padding: 0.25rem 0.875rem;
+    border: 0.125rem solid #003087;
+    border-radius: 1000px;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-transition: color 0.20s ease,background-color 0.20s ease,border-color 0.20s ease,box-shadow 0.20s ease;
+    transition: color 0.20s ease,background-color 0.20s ease,border-color 0.20s ease,box-shadow 0.20s ease;
+    font-weight: bold;
+}
+
+.bg-izq{
+    background-color: #FAF8F5;
+}
+
+.bg-der{
+    background-color: #FFFFFF;
+}
+
+.btn-yellow{
+    position: relative;
+    border-radius: 1000px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    min-width: 6rem;
+    text-align: center;
+    min-width: 12rem;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-transition: color 0.20s ease,background-color 0.20s ease,border-color 0.20s ease,box-shadow 0.20s ease;
+    transition: color 0.20s ease,background-color 0.20s ease,border-color 0.20s ease,box-shadow 0.20s ease;
+    border: 0.125rem solid #003087;
+    color: #ffffff;
+    font-family: PayPalOpen-Bold,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    background-color: #003087;
+    padding: 0.625rem 1.875rem;
+    background: #ffd140;
+    border-color: #ffd140;
+    color: #003087;
+}
+
+
+.btn-yellow:hover{
+    background-color: #FEE889;
+    border-color: #FEE889;
+}
+
+.monto{
+    font-size: 45px!important;
+    color: #001435;
+}
+
+.icon-more{
+    width: 22px;
+}

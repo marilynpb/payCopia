@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <title>Paypal: Summary</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container my-3 py-1">
+            <!-- Enlaces a la izquierda -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./img/paypal-mark-monotone-transparent.svg"></a>
+                </li>
+                <li class="nav-item margin-li">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item margin-li">
+                    <a class="nav-link" href="#">Send and Request</a>
+                </li>
+                <li class="nav-item margin-li">
+                    <a class="nav-link" href="#">Wallet</a>
+                </li>
+                <li class="nav-item margin-li">
+                    <a class="nav-link" href="#">Activity</a>
+                </li>
+                <li class="nav-item margin-li">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+
+            <!-- Enlaces a la derecha -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/bell.svg">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="./img/8723072_settings_icon.svg">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOG OUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid row p-0 m-0">
+        <div class="col-7 bg-izq">
+            <div class="row">
+                <div class="col-10 ms-5 ps-5">
+                    <div class="card-white m-5">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="title">PayPal balance</h1>
+                            <img class="icon-more" src="./img/more.svg">
+                        </div>
+                        <h2 class="monto">$0.00</h2>
+                        <p class="p-0 m-0">Available</p>
+                        <button class="btn-transfer">Transfer Funds</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5 bg-der py-5 px-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-start">
+                        <button class="btn-yellow" style="margin-right: 0.8rem;">Send</button>
+                        <button class="btn-yellow btn">Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

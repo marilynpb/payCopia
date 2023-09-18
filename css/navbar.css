@@ -1,0 +1,17 @@
+nav{
+    background-color: #142C8E!important;
+}
+
+nav a{
+    color: #D1F1F7!important;
+    font-size: 16.5px!important;
+}
+
+.logo{
+    width: 30px;
+}
+
+.margin-li{
+    margin-left: 13px;
+    margin-right: 13px;
+}
